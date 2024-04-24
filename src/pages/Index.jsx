@@ -30,7 +30,7 @@ const Index = () => {
   };
 
   return (
-    <Container maxW="container.md" py={10} mt="75px">
+    <Container maxW="container.md" py={10}>
       <VStack spacing={8}>
         <Box textAlign="center">
           <Text fontSize="3xl" fontWeight="bold" color="brand.700">

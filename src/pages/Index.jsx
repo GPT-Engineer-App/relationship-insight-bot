@@ -33,10 +33,12 @@ const Index = () => {
     <Container maxW="container.md" py={10}>
       <VStack spacing={8}>
         <Box textAlign="center">
-          <Text fontSize="2xl" fontWeight="bold">
-            Relationship Insight Chatbot
+          <Text fontSize="3xl" fontWeight="bold" color="brand.700">
+            EmoConnect
           </Text>
-          <Text mt={2}>Empowering your relationship journey with AI-driven insights.</Text>
+          <Text mt={2} fontSize="xl" color="brand.600">
+            Navigate Your Relationships with Insight and Empathy
+          </Text>
           <Image src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbXBhdGhldGljJTIwQUl8ZW58MHx8fHwxNzEzOTc3MDA1fDA&ixlib=rb-4.0.3&q=80&w=1080" boxSize="150px" mt={4} borderRadius="full" />
         </Box>
 
